@@ -131,7 +131,8 @@ for z in list.items():
 ```
 
 ### Hasil program
-![2](Gambar/Gambar2.png)
+<p align="center"> <img src="Praktikum5/Praktikum5.png">
+</p>
 
 ### Hasil hanya sebagian dari fungsi program
 
