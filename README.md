@@ -136,7 +136,6 @@ for z in list.items():
 >Hasil hanya sebagian dari fungsi program
 
 ### Flowchart
-<p align="center"><img src="Praktikum5/Flowchart.png" height="500">
-</p>
+<img src="Praktikum5/Flowchart.png" height="700">
 
 
