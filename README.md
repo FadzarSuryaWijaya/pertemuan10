@@ -148,17 +148,19 @@ for z in list.items():
 <p align="center"><img src="Praktikum5/Flowchart.png" height="700"></p>
 
 *********************************************************
-*********************************************************
 
 ### Catatan
+
 - Program berjalan dalam loop tak terbatas (`while True`) sehingga pengguna dapat terus melakukan operasi hingga memilih untuk keluar.
 - Program menggunakan kamus (`list`) untuk menyimpan data mahasiswa, dengan nama sebagai kunci dan nilai-nilai terkait sebagai nilai.
 
 ### Cara Penggunaan
+
 1. Pilih opsi sesuai dengan tindakan yang ingin dilakukan: (T)Tambah, (U)Ubah, (H)Hapus, (C)Cari, (L)Lihat, atau (K)Keluar.
 2. Ikuti petunjuk yang muncul untuk setiap opsi, dan program akan merespons sesuai.
 3. Program akan terus berjalan hingga pengguna memilih untuk keluar.
 
 ### Perhatian
+
 - Pastikan untuk memasukkan input sesuai dengan petunjuk untuk hasil yang diinginkan.
 - Program memberikan pesan informasi jika terjadi kesalahan input atau jika data yang dicari/tindakan yang diinginkan tidak ditemukan.
