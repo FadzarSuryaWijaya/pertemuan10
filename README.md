@@ -147,8 +147,8 @@ for z in list.items():
 ### Flowchart
 <img src="Praktikum5/Flowchart.png" height="700">
 
-
-<div style="font-weight:bold;font-family:cambria;">
+*********************************************************
+<span style="font-weight:bold;">
 
 #### Catatan
 
@@ -165,4 +165,4 @@ for z in list.items():
 
 - Pastikan untuk memasukkan input sesuai dengan petunjuk untuk hasil yang diinginkan.
 - Program memberikan pesan informasi jika terjadi kesalahan input atau jika data yang dicari/tindakan yang diinginkan tidak ditemukan.
-</div>
+</span>
