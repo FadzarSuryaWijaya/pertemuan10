@@ -129,14 +129,13 @@ for z in list.items():
     else:
         print("\n INPUT {} TIDAK ADA!, Silakan pilih [T/U/H/C/L] untuk menjalankan program!".format(c))
 ```
-
 ### Hasil program
 <p align="center"> <img src="Praktikum5/Praktikum5.png">
 </p>
 
 ### Hasil hanya sebagian dari fungsi program
 ### Flowchart
-<p align="center" height="30%"><img src="Praktikum5/Flowchart.png">
+<p align="center"><img src="Praktikum5/Flowchart.png" style="max-width: 75%;">
 </p>
 
 
