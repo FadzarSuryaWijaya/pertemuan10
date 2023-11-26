@@ -133,9 +133,10 @@ for z in list.items():
 <p align="center"> <img src="Praktikum5/Praktikum5.png">
 </p>
 
-### Hasil hanya sebagian dari fungsi program
+>Hasil hanya sebagian dari fungsi program
+
 ### Flowchart
-<p align="center"><img src="Praktikum5/Flowchart.png" style="max-width: 75%;">
+<p align="center"><img src="Praktikum5/Flowchart.png" style="max-width: 50%;height:auto;">
 </p>
 
 
