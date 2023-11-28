@@ -7,8 +7,134 @@
 | **Kelas** | TI.23.A.5 |
 | **Mata Kuliah** | Bahasa Pemrograman |
 
+## Latihan 1
+- Buat Dictionary daftar kontak
+    - Nama sebagai key, dan nomor sebagai value
+- Tampilkan kontaknya Ari
+- Tambah kontak baru dengan nama Riko, nomor 087654544
+- Ubah kontak Dina dengan nomor baru 088999776
+- Tampilkan semua Nama
+- Tampilkan semua Nomor
+- Tampilkan daftar Nama dan nomornya
+- Hapus kontak Dina.
 
-### Tugas Praktikum
+### Program
+```python
+    list = {
+        "Arii" : "081267888", "Dina" : "087677776"  
+    }
+    print("\nTampilkan kontak Arii :")
+    print(29*"=")
+    print(" {0:^2} |".format("Nama"), "Nomor Telepon")      
+    print("=============================")
+
+    # Tampilkan Kontak Ari
+    print(" {0:^2} |".format("Arii") ,list["Arii"],"\n")
+
+    # Tambah Kontak baru
+    list["Riko"] = "087654544"
+
+    # Ubah kontak dina dengan nomor baru
+    list["Dina"] = "088999776"
+
+    # Tampilkan semua Nama 
+    print("Tampilan semua Nama :")
+    print("=============================")
+    # Setelah di ubah
+    print(" {0:^2} |".format("Nama"), "Nomor Telepon")
+    print("=============================")
+
+    for x in list.keys():
+        print(" {0:^2} |".format(x))
+    print("\n")
+
+    # Tampilkan Semua Nomor 
+    print("Tampilan semua Nomor :")
+    print("=============================")
+    # Setelah di ubah
+    print(" {0:^2} |".format("Nama"), "Nomor Telepon")
+    print("=============================")
+
+    for x in list.values():
+        print(" {0:^2} |".format(x))
+    print("\n")
+
+
+    # Tampilkan daftar Nama & Nomor
+    print("Tampilan daftar Nama & Nomor :")
+    print("=============================")
+    # Setelah di ubah
+    print(" {0:^2} |".format("Nama"), "Nomor Telepon")
+    print("=============================")
+
+    for x, y in list.items():
+        print(" {0:^2} |".format(x), (y))
+    print("\n")
+
+    # Menghapus Kontak Dina
+    print("Menghapus Kontak Dina :")
+    print(29*"=")
+    del list["Dina"]
+
+    print(" {0:^2} |".format("Nama"), "Nomor Telepon")
+    print("=============================")
+
+    for x, y in list.items():
+        print(" {0:^2} |".format(x), (y))
+    print("\n")
+```
+### Output
+<img src="Praktikum5/Latihan1.png">
+
+## Dictionary
+### Program
+```python
+# Membuat dictionary
+a = {
+    "n1": 100, "n2" : 20, "n3" : 7
+}
+
+print()
+
+# Akses Dictionary
+print("=================Akses Dictionary=================")
+print(a['n2'])
+print(a.keys())
+print(a.values())
+print(a.items())
+print("="*50)
+
+print()
+
+# Mengubah element
+a["n2"] = 10
+
+# Menambah element Dictionary
+a['n4'] = 50
+
+# Sesudah di tambahkan
+print("===========Mengubah & Menambah Element============") 
+print(a['n2'])
+print(a.keys())
+print(a.values())
+print(a.items(),"\n")
+print("="*50)
+print()
+
+# Loop Dictionary 
+print("=================Loop Dictionary==================")
+for item in a.items():
+    print(item)
+    print(item[0])
+print("="*50)
+print()
+```
+
+### Output
+<img src="Praktikum5/Dictionary.png">
+
+
+## Tugas Praktikum
 Buat program sederhana yang akan menampilkan daftar nilai
 mahasiswa, dengan ketentuan :
 
