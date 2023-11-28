@@ -84,7 +84,9 @@
     print("\n")
 ```
 ### Output
+<p align="center">
 <img src="Praktikum5/Latihan1.png">
+</p>
 
 ## Dictionary
 ### Program
@@ -131,8 +133,9 @@ print()
 ```
 
 ### Output
+<p align="center">
 <img src="Praktikum5/Dictionary.png">
-
+</p>
 
 ## Tugas Praktikum
 Buat program sederhana yang akan menampilkan daftar nilai
